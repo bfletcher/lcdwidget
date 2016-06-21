@@ -191,8 +191,8 @@ class Display (Thread):
         self._window.set_title(g_service_alias)
         self._window.show_all()
         self.lcd_display.clear()
-        self.lcd_display.print_line("Linaro & 96Boards",0)
-        self.lcd_display.print_line("Waiting for MQTT messages ...",1)
+        self.lcd_display.print_line("Hello World",0)
+        self.lcd_display.print_line("Waiting for messages ...",1)
         self.lcd_display.refresh()
         gtk.threads_leave()
         while True:
