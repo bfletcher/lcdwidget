@@ -1,12 +1,12 @@
 lcdwidget
 ---------
 pygtk widget as a rpyc service that simulates a multiline LCD or VFD display. 
-The number of rows and columns is configurable.
+The numbers of rows and columns are configurable.
 
-The service exposes one call - print_string(). 
+The service exposes one call - print_string()
 
 Whatever string is sent via that service call will be truncated to fit the display
-and shown, (character) wrapped to fit the line lingth.
+and shown, (character) wrapped to fit the line length.
 
 Usage: lcd_service.py (service_alias_name socket_id)
 
