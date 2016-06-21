@@ -36,3 +36,7 @@ Notes
 -----
 The service_alias_name string sets the window banner name and also appears in any 
 registry of rpyc services (entirely optional).
+
+Acknowledgements
+----------------
+The actual (& awesome) display came from a gist by John Stowers - https://github.com/nzjrs
