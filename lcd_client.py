@@ -13,7 +13,7 @@ def main():
     if len(sys.argv) == 2:
         socket_id = int(sys.argv[1])
     elif len(sys.argv) > 1:
-        print "Usage: lcd_service.py (socket_id)"
+        print "Usage: lcd_client.py (socket_id)"
         sys.exit(2)
     else:
         # defaults
