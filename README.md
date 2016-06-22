@@ -23,7 +23,7 @@ Testing
 -------
 The test client demonstrates how to call the service. 
 
-Usage: lcd_service.py (socket_id)
+Usage: lcd_client.py (socket_id)
 
 The socket_id should be the same as the service you're trying to connect to.
 
