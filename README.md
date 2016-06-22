@@ -19,6 +19,11 @@ Defaults:
         service_alias = "LCD1"
         socket_id = 18861
 
+Screenshot
+----------
+https://drive.google.com/file/d/0B-Bopxux3jTbY1dVTzNmZWN6YUE/view?usp=sharing
+
+
 Testing
 -------
 The test client demonstrates how to call the service. 
